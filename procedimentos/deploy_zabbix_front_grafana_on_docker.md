@@ -280,7 +280,7 @@ for net in `docker network ls |grep -v NAME | awk '{print $2}'`;do ipam=`docker 
 
 ```bash
 cd ~/
-git clone git@github.com:jorgepretel/maratonazabbix.git
+git clone https://github.com/jorgepretel/maratonazabbix.git
 ```
 
 ### Inicianlizando a stack 
@@ -310,7 +310,7 @@ docker service logs -f maratonazabbix_zabbix-server
 docker service logs -f maratonazabbix_zabbix-frontend
 docker service logs -f maratonazabbix_grafana
 ```
-
+ 
 ### Removendo stack
 
 ```bash
