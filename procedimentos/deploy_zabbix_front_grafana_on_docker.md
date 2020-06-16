@@ -314,6 +314,6 @@ docker service logs -f maratonazabbix_grafana
 ### Removendo stack
 
 ```bash
-docker stack rm maratonzabbix
+docker stack rm maratonazabbix
 ```
 
